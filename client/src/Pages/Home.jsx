@@ -33,7 +33,7 @@ const Home = () => {
                                         <h3>{item.isOrganic}</h3>
                                         <h4>{item.seller}</h4>
                                         <div className="flex justify-center">
-                                            <Link to={`/productinfo/:${item.id}`}  element={<ProductInfo/>}className="focus:outline-none text-center text-white bg-[#3f8c48] hover:bg-[#98d0a2] focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full py-2">Add to WishList</Link>
+                                            <Link to={`/productinfo/${item.id}`}  element={<ProductInfo/>}className="focus:outline-none text-center text-white bg-[#3f8c48] hover:bg-[#98d0a2] focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-full py-2">Add to WishList</Link>
                                         </div>
                                     </div>
                                 </div>

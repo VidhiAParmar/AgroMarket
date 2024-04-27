@@ -5,6 +5,7 @@ import Sell from './Pages/Sell';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
 import MyState from "./Context/MyState";
+import ProductInfo from "./Pages/ProductInfo";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
       <Route path="/sell" element={<Sell/>}/> 
-      
+      <Route path="/productinfo/:id" element={<ProductInfo/>}/>
     </Routes>
     </BrowserRouter>
     </MyState>
