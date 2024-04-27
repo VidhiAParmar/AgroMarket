@@ -4,6 +4,7 @@ import Layout from '../Component/Layout';
 import { useContext } from 'react';
 import MyContext from '../Context/MyContext';
 import ProductInfo from './ProductInfo';
+import Poster from "../../public/poster.jpeg"
 //import axios from 'axios';
 //import { useContext } from 'react';
 // import myContext from '../context/myContext';
@@ -16,7 +17,7 @@ const Home = () => {
         <div>
              <Layout>
             <div className='poster'>
-                <img  className="w-full h-50 object-cover rounded-lg" src='../poster.jpeg' alt='kguh'/>
+                <img  className="w-full h-50 object-cover rounded-lg" src={Poster} alt='kguh'/>
             </div>
             <section className="text-[#3f8c48] body-font container px-5 py-8 md:py-16 mx-auto bg-[#ffffff]">
                 <div className="flex flex-wrap -m-4">
