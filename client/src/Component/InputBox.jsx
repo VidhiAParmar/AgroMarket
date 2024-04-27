@@ -19,7 +19,7 @@ const InputBox = ({
           defaultValue={value}
           placeholder={placeholder}
           onChange={handleChange}
-          className="bg-[#e7e6e9] rounded-lg w-full h-10 pl-3 mb-4" 
+          className="bg-[#f5f4f4] rounded-lg w-full h-10 pl-3 mb-4" 
         />
       </div>
     </div>

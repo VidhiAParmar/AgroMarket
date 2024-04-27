@@ -87,7 +87,7 @@ function Register() {
 
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="bg-[#3f8c48]  w-[400px] px-10 py-10 rounded-xl">
+      <div className="bg-[#44a34f]  w-[400px] px-10 py-10 rounded-xl">
         <Toaster />
         <div>
           <h1 className="text-center text-white text-xl mb-4 font-bold">Register</h1>
@@ -104,7 +104,7 @@ function Register() {
         ))}
         <div className="flex justify-center mb-3">
           <button
-            className="bg-[#173d1c] w-full text-black font-bold px-2 py-2 rounded-lg"
+            className="bg-[#1c5724] w-full text-white font-bold px-2 py-2 rounded-lg"
             onClick={register}
           >
             Register

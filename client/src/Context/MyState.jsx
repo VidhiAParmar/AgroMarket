@@ -43,6 +43,7 @@ const MyState = (props) => {
 
         }
     ];
+    
 
   return (
     <MyContext.Provider value={{products}}>{props.children}</MyContext.Provider>

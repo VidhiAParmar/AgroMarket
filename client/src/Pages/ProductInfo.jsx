@@ -2,6 +2,8 @@ import { useParams } from "react-router-dom";
 import { useContext } from "react";
 import MyContext from "../Context/MyContext";
 import Layout from "../Component/Layout";
+import WishList from "./WishList";
+
 // import "./tailwind.css"; // Import Tailwind CSS
 
 function ProductInfo() {
@@ -29,6 +31,9 @@ console.log(product);
             <h2 className="text-lg text-gray-700 mb-2">Description: {product.description}</h2>
             <h2 className="text-lg text-gray-700">Seller: {product.seller}</h2>
             {/* Render other product details here */}
+            <div className="flex justify-center">
+              <Link to={`/wishlist`}  element={<WishList />}className="focus:outline-none text-center text-white bg-[#3f8c48] hover:bg-[#98d0a2] focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm w-1/4 py-2">Add To WishList</Link>
+            </div>
           </div>
         </div>
       </Layout>
