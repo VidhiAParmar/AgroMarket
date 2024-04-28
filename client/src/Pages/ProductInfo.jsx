@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams,Link } from "react-router-dom";
 import { useContext } from "react";
 import MyContext from "../Context/MyContext";
 import Layout from "../Component/Layout";
