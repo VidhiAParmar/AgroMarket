@@ -6,6 +6,8 @@ import Register from "./Pages/Register";
 import MyState from "./Context/MyState";
 import ProductInfo from "./Pages/ProductInfo";
 import WishList from "./Pages/WishList";
+import AddProduct from "./Pages/AddProduct";
+import UpdateProduct from "./Pages/UpdateProduct";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/sell" element={<Sell />} />
           <Route path="/productinfo/:id" element={<ProductInfo />} />
           <Route path="/wishlist" element={<WishList />} />
+          <Route path="/addproduct" element={<AddProduct/>}/>
+          <Route path="/updateproduct/:id" element={<UpdateProduct/>}/>
         </Routes>
       </BrowserRouter>
     </MyState>
